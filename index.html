@@ -11,6 +11,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    
+
+    
 </head>
 
 <body>
@@ -19,14 +22,21 @@
        <ul>
             <li class="main-nav-item logo"><a href="">MoGo</a></li>  
         </ul>    
-        <ul>
-            <li class="main-nav-item"><a href="">about</a></li>
-            <li class="main-nav-item"><a href="">service</a></li>
-            <li class="main-nav-item"><a href="">work</a></li>
-            <li class="main-nav-item"><a href="">blog</a></li>
-            <li class="main-nav-item"><a href="">contact</a></li>
-            <li class="main-nav-item"><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-            <li class="main-nav-item"><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+        <ul id="main-nav-ul">
+            <li class="main-nav-item"><a id="about" href="#">about</a></li>
+            <li class="main-nav-item"><a id="services" href="#">service</a></li>
+            <li class="main-nav-item"><a id="work" href="#">work</a></li>
+            <li class="main-nav-item"><a id="blog" href="#">blog</a></li>
+            <li class="main-nav-item"><a id="contact"href="#">contact</a></li>
+            <li class="main-nav-item"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+            <li class="main-nav-item">
+            <!--<form id="search" action="">-->
+                <!--  <input type="search">-->
+                  <a href="#">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </a>
+           <!--</form>  -->             
+            </li>
         </ul>
     </nav>
 <!-- Header -->
@@ -38,8 +48,8 @@
             </div>
         </div>
     </header>
-
-
+<!-- Scripts -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

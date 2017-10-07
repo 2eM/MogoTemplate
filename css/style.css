@@ -7,7 +7,7 @@ body{
     margin:0 ;
 }
 
-/* Hedaer */
+/* Header */
 
 #main-header{
     background-image: url(../img/header/header-bg.jpg);
@@ -20,10 +20,7 @@ body{
 
 #gradient-mask{
     height:100%;
-    
     background: linear-gradient(rgba(243,129,129,0.8), rgba(252,227,138,0.9));
-    
-
 }
 
 #main-header h1,h2{
@@ -97,15 +94,34 @@ body{
     color:white;
     text-decoration:none;
     padding:10px 0px;
+    transition: color .5s;
 }
 
 .main-nav-item:not(.logo) a:hover{
     color: rgb(252,227,138);
 }
 
-.main-nav-item:not(.logo) a:hover{
+
+#main-nav .active a{
     color: rgb(252,227,138);
     border-bottom: 2px solid rgb(252,227,138);
+}
+
+/*#main-nav #search input{
+    
+    height: 2em;
+    width: 80%;
+    background-color: rgba(252,227,138,0.2);
+    border:solid 1px white;
+    border-radius: 15px;
+    padding:10px;
+    color:white;
+    
+}*/
+
+#main-nav #search input:focus{
+    background-color: rgba(252,227,138,0.4);
+    outline: none;
     
 }
 
