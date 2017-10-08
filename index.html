@@ -4,38 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Mogo Template</title>
-<!-- Styles -->
+    <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
 
-<!-- Fonts -->
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    
 
-    
+
+
 </head>
 
 <body>
 <!-- Navigation -->
     <nav id="main-nav">
-       <ul>
-            <li class="main-nav-item logo"><a href="">MoGo</a></li>  
-        </ul>    
+        <ul>
+            <li class="main-nav-item logo"><a href="">MoGo</a></li>
+        </ul>
         <ul id="main-nav-ul">
             <li class="main-nav-item"><a id="about" href="#">about</a></li>
             <li class="main-nav-item"><a id="services" href="#">service</a></li>
             <li class="main-nav-item"><a id="work" href="#">work</a></li>
             <li class="main-nav-item"><a id="blog" href="#">blog</a></li>
-            <li class="main-nav-item"><a id="contact"href="#">contact</a></li>
+            <li class="main-nav-item"><a id="contact" href="#">contact</a></li>
             <li class="main-nav-item"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+            <li class="main-nav-item"><a href="#"><i id="search" class="fa fa-search" aria-hidden="true"></i></a></li>
             <li class="main-nav-item">
-            <!--<form id="search" action="">-->
-                <!--  <input type="search">-->
-                  <a href="#">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                  </a>
-           <!--</form>  -->             
+                <form id="search-form-off" action="http://www.google.pl/search" method="get">
+                    <input type="search" class="search-form">
+                    <a href="#"><i id="cross" class="fa fa-times" aria-hidden="true"></i> </a>
+                </form>
             </li>
         </ul>
     </nav>
