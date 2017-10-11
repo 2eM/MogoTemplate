@@ -47,7 +47,7 @@ hr {
 
 article {
     text-align: center;
-    padding: 2%;
+    padding: 2% 0;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
     font-weight: 300;
@@ -260,18 +260,62 @@ article p {
     height: 176px;
     background-color: #95e1d3;
     color:white;
-    padding:0% 12.66%;
+    padding:0 12.66%;
 }
 
-#facts .facts-item{
-    width:20%;
-    height: 100%;
-    border-left:.5px solid white;
-    display: inline-block;
-    float:left;
+#facts-container{
+    width:100%;
+    height:100%;
+    padding:0 1%;
     
 }
 
-#facts .facts-last-item{
-    border-right:0.5px solid white;
+#facts-container .facts-item{
+    width:20%;
+    height: 100%;
+    
+    border-left: 1px solid white;
+    display: inline-block;
+    float:left;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    
+    position:relative;
+
+    
+}
+
+#facts-container .facts-item h4
+{
+    margin: 0;
+}
+
+#facts-container .facts-item h5{
+    font-size: 10px;
+    font-weight: 300;
+    margin: 0;
+    text-transform: uppercase;
+    
+}
+
+#facts-container .content-aligne{
+        width:100%;
+        position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+}
+
+#facts-container .facts-last-item{
+    border-right: 1px solid white;
+}
+
+/* Section Services */
+
+#services-container .services-item{
+    width:33%;
+    display: inline-block;
 }
